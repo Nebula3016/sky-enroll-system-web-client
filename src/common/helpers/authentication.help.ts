@@ -1,4 +1,4 @@
-import { logOutToHandleTheConfigDefault } from '@/common/others/default-data/helper.data';
+import { logOutToHandleTheConfigDefault } from '@/common/others/define-data/helper.data';
 import { clearSystemCacheAndStoreHelp, createNotificationService } from '@/common';
 import { useAppStore } from '@/stores';
 

@@ -4,9 +4,9 @@ import './assets/styles/css/main.css';
 import './assets/styles/scss/global-index.scss';
 import { useRegisterElementPlus } from './common/plugins/el-element.ts';
 import { useRegisterRouter } from './router';
+import App from './screens/App.vue';
 import { useRegisterStore } from './stores';
 import { VueTools } from './utils';
-import App from './screens/App.vue';
 
 const { createApp } = VueTools;
 

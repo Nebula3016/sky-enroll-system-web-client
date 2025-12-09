@@ -1,5 +1,5 @@
-export * as VueRouterTools from './vue-router.utils.ts';
-export * as VueTools from './vue.utils.ts';
-export * as PiniaTools from './pinia.utils.ts';
-export * as TypeItTools from './typeit.utils.ts';
-export * as AxiosTools from './axios.utils.ts';
+export * as VueRouterTools from './vue-tools/vue-router.utils.ts';
+export * as VueTools from './vue-tools/vue.utils.ts';
+export * as PiniaTools from './third-party-tools/pinia.utils.ts';
+export * as TypeItTools from './third-party-tools/typeit.utils.ts';
+export * as AxiosTools from './third-party-tools/axios.utils.ts';
