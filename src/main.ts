@@ -1,11 +1,10 @@
 import bootstrap from './bootstrap.ts';
 
-const { registerPiniaApply, registerRouterApply, registerElementPlusApply, mountApply } = bootstrap();
-
-registerPiniaApply();
-
-registerRouterApply();
-
-registerElementPlusApply();
-
-mountApply();
+(async () => {
+  await bootstrap().then(({ registerPiniaApply, registerRouterApply, registerElementPlusApply, mountApply }) => {
+    registerPiniaApply();
+    registerRouterApply();
+    registerElementPlusApply();
+    mountApply();
+  });
+})();

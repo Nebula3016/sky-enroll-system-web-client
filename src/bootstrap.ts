@@ -14,7 +14,7 @@ const { createApp } = VueTools;
  * @function bootstrap
  * @description 入口辅助函数（统一配置）
  */
-export default () => {
+export default async function () {
   const app: IVueTypes.App<Element> = createVueApply();
 
   /**
@@ -60,4 +60,4 @@ export default () => {
     registerElementPlusApply,
     mountApply,
   };
-};
+}
