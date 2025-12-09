@@ -1,0 +1,117 @@
+[
+  {
+    "id": "1873998925726031001",
+    "parentId": "",
+    "path": "/system",
+    "code": "System",
+    "name": "系统管理",
+    "type": "ROOT",
+    "icon": "system-icon",
+    "redirect": "",
+    "children": [
+      {
+        "id": "1873998925726031011",
+        "parentId": "1873998925726031001",
+        "path": "/system/user",
+        "code": "User",
+        "name": "用户管理",
+        "type": "ROUTE",
+        "icon": "user-icon",
+        "redirect": "",
+        "children": [],
+        "order": 1,
+        "roles": ["admin", "manager"],
+        "meta": {
+          "requireAuth": true,
+          "hidden": false,
+          "keepAlive": true
+        },
+        "target": "_self"
+      },
+      {
+        "id": "1873998925726031012",
+        "parentId": "1873998925726031001",
+        "path": "/system/role",
+        "name": "角色管理",
+        "code": "Route",
+        "type": "ROUTE",
+        "icon": "role-icon",
+        "redirect": "",
+        "children": [],
+        "order": 2,
+        "roles": ["admin"],
+        "meta": {
+          "requireAuth": true,
+          "hidden": false,
+          "keepAlive": true
+        },
+        "target": "_self"
+      },
+      {
+        "id": "1873998925726031013",
+        "parentId": "1873998925726031001",
+        "path": "/system/permission",
+        "name": "权限管理",
+        "type": "ROUTE",
+        "code": "Permission",
+        "icon": "permission-icon",
+        "redirect": "",
+        "children": [],
+        "order": 3,
+        "roles": ["admin"],
+        "meta": {
+          "requireAuth": true,
+          "hidden": false,
+          "keepAlive": true
+        },
+        "target": "_self"
+      },
+      {
+        "id": "1873998925726031014",
+        "parentId": "1873998925726031001",
+        "path": "/system/dict",
+        "name": "字典管理",
+        "type": "ROUTE",
+        "code": "Dictionary",
+        "icon": "dict-icon",
+        "redirect": "",
+        "children": [],
+        "order": 4,
+        "roles": ["admin", "manager"],
+        "meta": {
+          "requireAuth": true,
+          "hidden": false,
+          "keepAlive": true
+        },
+        "target": "_self"
+      },
+      {
+        "id": "1873998925726031015",
+        "parentId": "1873998925726031001",
+        "path": "/system/log",
+        "name": "日志管理",
+        "type": "ROUTE",
+        "code": "Log",
+        "icon": "log-icon",
+        "redirect": "",
+        "children": [],
+        "order": 5,
+        "roles": ["admin"],
+        "meta": {
+          "requireAuth": true,
+          "hidden": false,
+          "keepAlive": true
+        },
+        "target": "_self"
+      }
+    ],
+    "order": 1,
+    "roles": ["admin", "manager"],
+    "meta": {
+      "requireAuth": true,
+      "hidden": false,
+      "keepAlive": true
+    },
+    "target": "_self"
+  }
+]

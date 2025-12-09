@@ -1,0 +1,38 @@
+.vertical-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+:deep(.els-menu) {
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  border: 0;
+
+  .els-sub-menu {
+
+    .menu-item-link {
+      display: inline-block;
+      width: 100%;
+      height: 45px;
+    }
+
+    .els-menu-item {
+      width: 100%;
+      height: 100%;
+    }
+
+    .els-menu--inline {
+      width: 100%;
+    }
+  }
+}
+
+.shrink-nav {
+  display: inline-flex;
+  align-items: center;
+  flex-basis: 50px;
+  border-top: 1px solid #e4e7ed;
+}

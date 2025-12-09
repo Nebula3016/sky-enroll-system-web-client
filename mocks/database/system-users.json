@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "username": "admin",
+    "account": "1892778412",
+    "password": "admin666",
+    "nickname": "系统管理员",
+    "avatar": "",
+    "roles": ["admin", "user"],
+    "status": 1,
+    "createTime": "2024-01-01T00:00:00.000Z",
+    "updateTime": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "username": "user",
+    "account": "user@system.com",
+    "password": "user123",
+    "nickname": "普通用户",
+    "avatar": "",
+    "roles": ["user"],
+    "status": 1,
+    "createTime": "2024-01-01T00:00:00.000Z",
+    "updateTime": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "username": "test",
+    "account": "test@system.com",
+    "password": "test123",
+    "nickname": "测试用户",
+    "avatar": "",
+    "roles": ["user"],
+    "status": 0,
+    "createTime": "2024-01-01T00:00:00.000Z",
+    "updateTime": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "username": "manager",
+    "account": "manager@system.com",
+    "password": "manager123",
+    "nickname": "部门经理",
+    "avatar": "",
+    "roles": ["manager", "user"],
+    "status": 1,
+    "createTime": "2024-01-02T00:00:00.000Z",
+    "updateTime": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "username": "banned_user",
+    "account": "banned@system.com",
+    "password": "banned123",
+    "nickname": "被封用户",
+    "avatar": "",
+    "roles": ["user"],
+    "status": -1,
+    "createTime": "2024-01-03T00:00:00.000Z",
+    "updateTime": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "username": "developer",
+    "account": "developer@system.com",
+    "password": "dev123",
+    "nickname": "开发者",
+    "avatar": "",
+    "roles": ["developer", "user"],
+    "status": 1,
+    "createTime": "2024-01-04T00:00:00.000Z",
+    "updateTime": "2024-01-04T00:00:00.000Z"
+  }
+]

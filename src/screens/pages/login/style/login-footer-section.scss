@@ -1,0 +1,36 @@
+.login-footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: var(--global-font-size);
+  font-weight: 600;
+}
+
+
+.login-footer-context {
+  text-align: center;
+
+  .login-footer-context-link {
+    color: inherit;
+    padding-left: 3px;
+
+    &:hover {
+      color: rgba(0, 63, 152, 0.97);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .login-footer-section {
+    font-size: var(--global-font-size-small);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .login-footer-section {
+    font-size: var(--global-font-size-xs);
+  }
+}

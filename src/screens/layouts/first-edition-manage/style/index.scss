@@ -1,0 +1,16 @@
+.first-edition-manage-layout {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+:deep(.els-layout-container) {
+  .els-header {
+    height: auto;
+    padding: 0;
+  }
+
+  .els-main {
+    padding: 15px;
+  }
+}

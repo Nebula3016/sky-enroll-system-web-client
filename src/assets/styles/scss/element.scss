@@ -1,0 +1,7 @@
+@forward 'element-plus/theme-chalk/src/mixins/config.scss' with ($namespace: 'els');
+
+@use 'element-plus/theme-chalk/src/index.scss' as *;
+
+:root {
+  --els-main-padding: 15px;
+}

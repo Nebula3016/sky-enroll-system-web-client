@@ -1,0 +1,25 @@
+@import './root.css';
+@import './base.css';
+
+html,
+body {
+  width: 100vw;
+  height: 100%;
+  font-size: var(--global-font-size);
+  color: var(--global-font-color);
+  overflow: hidden;
+}
+
+body {
+  line-height: var(--global-font-line-height);
+  font-family: var(--global-font-family);
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* --------------- 根元素 --------------- */
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}

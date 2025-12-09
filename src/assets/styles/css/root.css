@@ -1,0 +1,65 @@
+@font-face {
+  font-family: '';
+  src: url('');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* 全局媒体查询断点 */
+  --global-breakpoint-xs: 480px;
+  --global-breakpoint-sm: 768px;
+  --global-breakpoint-md: 992px;
+  --global-breakpoint-lg: 1200px;
+  --global-breakpoint-xl: 1400px;
+  /* 全局媒体查询断点 */
+
+  /* 全局字体大小变量（px） */
+  --global-font-size: 16px;
+  --global-font-size-xs: 12px;
+  --global-font-size-small: 14px;
+  --global-font-size-medium: 16px;
+  --global-font-size-large: 18px;
+  --global-font-size-xlarge: 20px;
+  --global-font-size-xxlarge: 22px;
+  --global-font-size-xxxlarge: 24px;
+  --global-font-size-xxxxlarge: 26px;
+  --global-font-size-xxxxxxlarge: 28px;
+  --global-font-size-xxxxxxxlarge: 30px;
+  /* 全局字体大小变量（px） */
+
+  /* 全局字体大小变量（rem） */
+  --global-font-size-rem: 1rem;
+  --global-font-size-rem-xs: 0.75rem;
+  --global-font-size-rem-small: 0.875rem;
+  --global-font-size-rem-medium: 1rem;
+  --global-font-size-rem-large: 1.125rem;
+  --global-font-size-rem-xlarge: 1.25rem;
+  --global-font-size-rem-xxlarge: 1.375rem;
+  --global-font-size-rem-xxxlarge: 1.5rem;
+  --global-font-size-rem-xxxxlarge: 1.625rem;
+  --global-font-size-rem-xxxxxxlarge: 1.75rem;
+  --global-font-size-rem-xxxxxxxlarge: 1.875rem;
+  /* 全局字体大小变量（rem） */
+
+  /* 全局字体颜色变量 */
+  --global-font-color: #000;
+  /* 全局字体颜色变量 */
+
+  /* 全局字体类型变量 */
+  --global-font-family:
+    -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  /* 全局字体类型变量 */
+
+  /* 全局按钮变量 */
+  /* 全局按钮变量 */
+
+  /* 全局滚动条变量 */
+  --global-scrollbar-width: 8px;
+  --global-scrollbar-width-rem: 0.625rem;
+  --global-scrollbar-track-color: #f5f5f5;
+  --global-scrollbar-thumb-color: #c1c1c1;
+  --global-scrollbar-thumb-hover-color: #a8a8a8;
+  /* 全局滚动条变量 */
+}
